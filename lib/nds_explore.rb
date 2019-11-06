@@ -15,8 +15,9 @@ movies = directors_database[0][:movies]
 counter = 0 
 while counter < movies.length do 
   # binding.pry
-  counter +=1
   puts movies[counter][:title]
+  counter +=1
+  
 end
  
 end
